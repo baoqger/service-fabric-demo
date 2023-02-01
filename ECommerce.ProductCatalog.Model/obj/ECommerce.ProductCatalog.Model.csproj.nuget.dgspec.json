@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\develop\\study\\dotnet\\plursight\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\develop\\study\\dotnet\\plursight\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\study\\dotnet\\plursight\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "projectName": "ECommerce.ProductCatalog.Model",
+        "projectPath": "C:\\develop\\study\\dotnet\\plursight\\ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "packagesPath": "C:\\Users\\jbao6\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\study\\dotnet\\plursight\\ECommerce\\ECommerce.ProductCatalog.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jbao6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.drillops.slb.com/artifactory/api/nuget/nuget-prd-local": {},
+          "https://pkgs.dev.azure.com/slb-swt/_packaging/slb-packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/slb1-swt/_packaging/DrillingSharedComponent%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/slb1-swt/_packaging/PrismLibrary%40Release/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/slb1-swt/_packaging/SALT/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/slb1-swt/_packaging/drillbench_nuget/nuget/v3/index.json": {},
+          "https://us2204aartd.jfrog.io/us2204aartd/api/nuget/nuget-dev-local/": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
