@@ -4,6 +4,6 @@
     <ApplicationUrl />
     <LastServiceLocation />
     <IsStartupProjectCheckComplete>true</IsStartupProjectCheckComplete>
-    <LaunchTarget>[UseApplicationUrl]</LaunchTarget>
+    <LaunchTarget>..\ECommerce.API\ECommerce.API.csproj</LaunchTarget>
   </PropertyGroup>
 </Project>

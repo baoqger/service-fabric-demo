@@ -937,6 +937,21 @@
           }
         }
       },
+      "Microsoft.ServiceFabric.FabricTransport.Internal/6.0.1028": {
+        "dependencies": {
+          "Microsoft.ServiceFabric": "9.0.1028"
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.V2.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.ServiceFabric.FabricTransport.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
       "Microsoft.ServiceFabric.Services/6.0.1028": {
         "dependencies": {
           "Microsoft.ServiceFabric.Data": "6.0.1028",
@@ -949,8 +964,24 @@
           }
         }
       },
+      "Microsoft.ServiceFabric.Services.Remoting/6.0.1028": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "6.0.1028",
+          "Microsoft.ServiceFabric.FabricTransport.Internal": "6.0.1028",
+          "Microsoft.ServiceFabric.Services": "6.0.1028"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Services.Remoting.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.1.0"
+          }
+        }
+      },
       "System.Memory/4.5.3": {},
       "ECommerce.ProductCatalog.Model/1.0.0": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Services.Remoting": "6.0.1028"
+        },
         "runtime": {
           "ECommerce.ProductCatalog.Model.dll": {}
         }
@@ -1003,12 +1034,26 @@
       "path": "microsoft.servicefabric.diagnostics.internal/6.0.1028",
       "hashPath": "microsoft.servicefabric.diagnostics.internal.6.0.1028.nupkg.sha512"
     },
+    "Microsoft.ServiceFabric.FabricTransport.Internal/6.0.1028": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jZMVNZObDvwYPTUuHHbSMnpAXMhexwQ1puRD6+iyqKpe8RTCM2AA5lao3ilPUizzw3udm+CBi3GHoFJ70xOqcA==",
+      "path": "microsoft.servicefabric.fabrictransport.internal/6.0.1028",
+      "hashPath": "microsoft.servicefabric.fabrictransport.internal.6.0.1028.nupkg.sha512"
+    },
     "Microsoft.ServiceFabric.Services/6.0.1028": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pscB1ljdEuUM2AmZzGtZ7oCZ352k3mlc2e1Aqh0rKipBzjulXH6XhX1XcdJRFoC2hUkwviwOQ/GE1Zl6bcJIoQ==",
       "path": "microsoft.servicefabric.services/6.0.1028",
       "hashPath": "microsoft.servicefabric.services.6.0.1028.nupkg.sha512"
+    },
+    "Microsoft.ServiceFabric.Services.Remoting/6.0.1028": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hErbmB0PioAovgNiBRf7nrgdM+WD6A8yc7dZH44cZN5l6lQhQHoEG+ULiHVgap6IezGX9psKbee+yV1idnEkAg==",
+      "path": "microsoft.servicefabric.services.remoting/6.0.1028",
+      "hashPath": "microsoft.servicefabric.services.remoting.6.0.1028.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",
